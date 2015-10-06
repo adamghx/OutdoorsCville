@@ -22,7 +22,7 @@ a:hover {
 html,
 body {
     /*css for full size background image*/
-    background: url(https://s3.amazonaws.com/MOT-Data/mountain-biking.jpg) no-repeat center center fixed;
+    background: url(https://lh5.googleusercontent.com/gQQn7v136o6ro6J7mvpts_G4DGLm-KRNdX7WmwKxC9RiBeoItbXRi2H0s2TDKD7FR1mioLdR-dkHuMteqtYxljPMrTA2i4JOzZOAGb73R1bJxOR1tUDVRz6y5kplI48joBTwdQs) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,15 +69,17 @@ body {
 }
 
 .masthead-nav > li {
-    display: inline-block;
+    float: left;
 }
 .masthead-nav > li + li {
+    float: left;
     margin-left: 20px;
 }
 .masthead-nav > li > a {
+    float: left;
     padding-right: 0;
     padding-left: 0;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     color: #fff; /* IE8 proofing */
     color: rgba(255,255,255,.95);
@@ -159,6 +161,6 @@ body {
     .masthead,
     .mastfoot,
     .cover-container {
-        width: 700px;
+        width: 900px;
     }
 }
