@@ -177,7 +177,7 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    text-align: center;
+    float: left;
     color: #000000;
     background-image: url(../img/humpback.jpg);
     background-position: center;
